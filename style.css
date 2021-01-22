@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 0px;
+    width: 100%;
+    color: #ffffff;
+    position: fixed;
+    cursor: default;
+    background: #000000;
+    z-index: 100;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background: center/cover no-repeat url("img/1.jpg");
+}
+
+.menu-item:hover {
+    text-decoration: underline;
+    color: #2C2C2C;
+}
+
+.menu-button {
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: #989898;
+    border: none;
+    color: #000000;
+    padding: 20px;
+    position: absolute;
+    bottom: 300px;  
+    z-index: 50;
+}
+
+.about{
+    background-color: #000000;
+}
+
+.content {
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+}
+
+.about div{
+    background: center/cover no-repeat url("img/2.jpg");
+    width: 400px;
+    height: 400px;
+    float: right;
+}
+
+.about p{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.about h1{
+    padding: 20px 0;
+    color: #ffffff;
+}
+
+.team {
+    background-color: #000000;
+    color: #ffffff;
+    padding-top: 50px;
+    text-align: center;
+} 
+
+.team-card {
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    background-color: #252525;
+    padding: 10px;
+    border-radius: 10px;
+    min-width: 300px;
+}
+
+.team-card button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #252525;
+    border: none;
+    box-shadow: 0 0 10px black;
+    color: #ffffff;
+}
+
+.team-card button:hover {
+    background: #696969;
+}
+
+.team-card div {
+    width: 300px;
+    height: 400px;
+    background-color: gray;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.team-title {
+    text-align: center;
+    font-size: 40px;
+}
+
+.team-subtitle {
+    text-align: center;
+    font-size: 25px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.first {
+    background-image: url(img/3.jpg)
+}
+
+.second {
+    background-image: url(img/4.jpg)
+}
+
+.third {
+    background-image: url(img/6.jpg)
+}
+
+.fourth {
+    background-image: url(img/5.jpg)
+}
+
+.price {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
+.price-card {
+    min-width: 300px;
+    width: 25%;
+    background-color: dimgrey;
+    text-align: center;
+    
+}
+
+.price-conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.sell {
+   background-color: #3D3D3D; 
+}
+
+.sell button {
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 10px;
+}
+
+.kit li {
+    padding: 10px;
+    list-style: none;
+    border-bottom: 1px solid #000000;
+}
+
+.bronze {
+    background-color: #cd7f32;
+    padding: 20px;
+}
+
+.silver {
+    background-color: #c0c0c0;
+    padding: 20px;
+}
+
+.gold {
+    background-color: #ffd700;
+    padding: 20px;
+}
+
+.registration {
+    background-color: #000000;
+    color: #ffffff;  
+}
+
+.input {
+    display: block;
+    border-radius: 50px;
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    
+}
+
+.regestration-content {
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+}
+
+.button-reg {
+    display: block;
+    color: #ffffff;
+    border:none;
+    border-radius: 50px;
+    background-color: #666666;
+    padding: 10px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+a {
+  color: #ffffff;  
+}
+
+@media(max-width: 700px) {
+    .menu a {
+        font-size: 8px;
+    }
+    
+    .menu {
+        background: red;
+    }
+}
+
+@media(max-width: 530px) {
+    .menu a {
+        font-size: 8px;
+    }
+    
+    .menu {
+        background: green;
+    }
+}
